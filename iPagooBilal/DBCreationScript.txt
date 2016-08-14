@@ -1,0 +1,125 @@
+﻿Create TABLE 
+Book(
+BookId int identity(100,1) Primary Key,
+ISBN nvarchar(156) NOT NULL CONSTRAINT AK_ISBN UNIQUE,
+Author nvarchar(156),
+Title nvarchar(256),
+Genre nvarchar(156))
+
+GO
+
+Create TABLE 
+BookLoan(
+BookLoanId int identity (100,1) Primary Key,
+BookId int  NOT NULL,
+LoanStartDate DateTime NOT NULL,
+LoanedTo nvarchar(156) NOT NULL,
+LoanedToAddress nvarchar(256),
+Comment nvarchar(800),
+LoanEndDate DateTime)
+
+GO
+
+ALTER TABLE BookLoan WITH CHECK ADD
+ CONSTRAINT FK_BookLoan_Book FOREIGN KEY (BookId) REFERENCES Book (BookId)
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345678','Dan Bravo','Skyfall','Action')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345679','R R Tolkein','Lord of the Rings','Fiction')
+ GO
+
+  INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345680','Andy Weir','The Martian','Fiction')
+
+ GO
+
+  INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345681','Joe Wicks','Lean in 15 15 Minute Meals and Workouts to Keep You Lean and Healthy','Sports')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345682','Harlan Coben','The Stranger','Fiction')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345683','R R Tolkein','Lord of the Rings 2','Fiction')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345684','R R Tolkein','Lord of the Rings','Fiction')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345685','R R Tolkein','Lord of the Rings 3','Fiction')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345686','R R Tolkein','Lord of the Rings 4','Fiction')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345687','John Smith','While you were sleeping','Romance')
+
+ GO
+
+
+ INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345688','William Shakespare','Much Ado about nothing','Drama')
+
+ GO
+
+  INSERT INTO Book(ISBN,Author,Title,Genre)
+ VALUES ('12345689','J J Martin','Game of Thrones - A song of fire and ice','Fiction')
+
+ GO
+
+
+ INSERT INTO BookLoan(BookId,LoanStartDate,LoanedTo,Comment,LoanEndDate)
+ SELECT BookId, '21 March 2015','Amir Shah',null,'21 April 2015'
+ from Book where Author = 'John Smith'
+
+ GO
+
+  INSERT INTO BookLoan(BookId,LoanStartDate,LoanedTo,Comment,LoanEndDate)
+ SELECT BookId, '21 April 2015','Amir Ja',null,'21 May 2015'
+ from Book where Author = 'John Smith'
+
+ GO
+
+   INSERT INTO BookLoan(BookId,LoanStartDate,LoanedTo,Comment,LoanEndDate)
+ SELECT BookId, '21 April 2015','Mike Procter',null,'21 May 2015'
+ from Book where Author = 'Harlan Coben'
+
+ GO
+
+ INSERT INTO BookLoan(BookId,LoanStartDate,LoanedTo,Comment,LoanEndDate)
+ SELECT BookId, '21 April 2015','Mike Procter','Mike would may be away for 2 months- We agreed he will return the book upon his return',null
+ from Book where Author = 'Andy Weir'
+
+ GO
+
+
+ 
+
+
+

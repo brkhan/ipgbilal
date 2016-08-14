@@ -1,0 +1,5 @@
+C:\Users\khanb\Downloads\ipg-master\ipg-master\Test\bin\Debug\Test.exe.config
+C:\Users\khanb\Downloads\ipg-master\ipg-master\Test\bin\Debug\Test.exe
+C:\Users\khanb\Downloads\ipg-master\ipg-master\Test\bin\Debug\Test.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\Test\obj\Debug\Test.exe
+C:\Users\khanb\Downloads\ipg-master\ipg-master\Test\obj\Debug\Test.pdb

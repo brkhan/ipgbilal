@@ -1,0 +1,275 @@
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\ApplicationInsights.config
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\csc.exe
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\System.Collections.Immutable.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\vbc.exe
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\VBCSCompiler.exe
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\roslyn\VBCSCompiler.exe.config
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\iPagooBilal.dll.config
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\iPagooBilal.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\iPagooBilal.pdb
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Antlr3.Runtime.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\EntityFramework.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\EntityFramework.SqlServer.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\IpagooBilal.Domain.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.Web.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.WindowsServer.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.ApplicationInsights.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Google.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Newtonsoft.Json.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Owin.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Net.Http.Formatting.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Helpers.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Http.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Http.WebHost.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Mvc.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Optimization.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Razor.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.Deployment.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.Razor.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\WebGrease.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\IpagooBilal.Domain.pdb
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.Web.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AI.WindowsServer.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.ApplicationInsights.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Helpers.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Mvc.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Optimization.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Razor.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.Deployment.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.WebPages.Razor.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Antlr3.Runtime.pdb
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Newtonsoft.Json.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Net.Http.Formatting.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Http.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\System.Web.Http.WebHost.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\EntityFramework.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\EntityFramework.SqlServer.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Google.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\obj\Debug\iPgBilal.csprojResolveAssemblyReference.cache
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\obj\Debug\iPagooBilal.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\iPagooBilal\obj\Debug\iPagooBilal.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\ApplicationInsights.config
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\csc.exe
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\vbc.exe
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\VBCSCompiler.exe
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Project_Readme.html
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\iPgBilal.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\iPgBilal.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Antlr3.Runtime.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\EntityFramework.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\EntityFramework.SqlServer.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\IPgBilal.DAL.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\IpgBilal.Domain.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.Web.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Newtonsoft.Json.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Owin.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Net.Http.Formatting.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Helpers.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Http.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Http.WebHost.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Mvc.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Optimization.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Razor.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.Razor.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\WebGrease.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\IpgBilal.Domain.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\IPgBilal.DAL.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.Web.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Helpers.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Mvc.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Optimization.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Razor.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.WebPages.Razor.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Antlr3.Runtime.pdb
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Newtonsoft.Json.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Net.Http.Formatting.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Http.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\System.Web.Http.WebHost.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\EntityFramework.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\EntityFramework.SqlServer.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\obj\Debug\iPgBilal.csprojResolveAssemblyReference.cache
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\obj\Debug\iPgBilal.dll
+C:\Users\khanb\Downloads\ipg-master\ipg-master\iPagooBilal\obj\Debug\iPgBilal.pdb
+C:\projects\ipg-master\iPagooBilal\bin\ApplicationInsights.config
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\csc.exe
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\System.Collections.Immutable.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\System.Reflection.Metadata.dll
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\vbc.exe
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\VBCSCompiler.exe
+C:\projects\ipg-master\iPagooBilal\bin\roslyn\VBCSCompiler.exe.config
+C:\projects\ipg-master\iPagooBilal\bin\Project_Readme.html
+C:\projects\ipg-master\iPagooBilal\bin\iPgBilal.dll.config
+C:\projects\ipg-master\iPagooBilal\bin\iPgBilal.dll
+C:\projects\ipg-master\iPagooBilal\bin\iPgBilal.pdb
+C:\projects\ipg-master\iPagooBilal\bin\Antlr3.Runtime.dll
+C:\projects\ipg-master\iPagooBilal\bin\EntityFramework.dll
+C:\projects\ipg-master\iPagooBilal\bin\EntityFramework.SqlServer.dll
+C:\projects\ipg-master\iPagooBilal\bin\IPgBilal.DAL.dll
+C:\projects\ipg-master\iPagooBilal\bin\IpgBilal.Domain.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.DependencyCollector.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.Web.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.WindowsServer.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.ApplicationInsights.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Google.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Web.Infrastructure.dll
+C:\projects\ipg-master\iPagooBilal\bin\Newtonsoft.Json.dll
+C:\projects\ipg-master\iPagooBilal\bin\Owin.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Net.Http.Formatting.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Helpers.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Http.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Http.WebHost.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Mvc.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Optimization.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Razor.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.Deployment.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.dll
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.Razor.dll
+C:\projects\ipg-master\iPagooBilal\bin\WebGrease.dll
+C:\projects\ipg-master\iPagooBilal\bin\IpgBilal.Domain.pdb
+C:\projects\ipg-master\iPagooBilal\bin\IPgBilal.DAL.pdb
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.DependencyCollector.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.Web.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AI.WindowsServer.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.ApplicationInsights.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Helpers.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Mvc.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Optimization.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Razor.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.Deployment.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.WebPages.Razor.xml
+C:\projects\ipg-master\iPagooBilal\bin\Antlr3.Runtime.pdb
+C:\projects\ipg-master\iPagooBilal\bin\Newtonsoft.Json.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Net.Http.Formatting.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Http.xml
+C:\projects\ipg-master\iPagooBilal\bin\System.Web.Http.WebHost.xml
+C:\projects\ipg-master\iPagooBilal\bin\EntityFramework.xml
+C:\projects\ipg-master\iPagooBilal\bin\EntityFramework.SqlServer.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Google.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\projects\ipg-master\iPagooBilal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\projects\ipg-master\iPagooBilal\obj\Debug\iPgBilal.csprojResolveAssemblyReference.cache
+C:\projects\ipg-master\iPagooBilal\obj\Debug\iPgBilal.dll
+C:\projects\ipg-master\iPagooBilal\obj\Debug\iPgBilal.pdb

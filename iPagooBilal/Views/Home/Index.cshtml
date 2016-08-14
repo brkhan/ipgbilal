@@ -1,0 +1,56 @@
+﻿@model iPgBilal.Models.BookModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<a href="../../Project_Readme.html" target="_blank"> Project read me</a>
+
+@using (Html.BeginForm("Submit", "Home", FormMethod.Post))
+{
+    <fieldset>
+        <div class="jumbotron">
+            <h1>My Library</h1>
+         
+            @Html.DropDownListFor(a => a.SelectedOption, Model.SearchOptions)
+            -
+            @Html.TextBoxFor(a => a.SearchedText)
+            -
+            <input type="submit" value="Search" />
+        </div>
+    </fieldset>
+}
+
+
+<div class="results">
+    @if (Model.SearchedText != null)
+    {
+        <label>You searched for @Model.SearchedText</label>
+        <p></p>
+        <label>Total books found : @Model.Books.Count</label>
+    }
+
+ @if (Model.Books.Any())
+ {
+     <p>
+         <table CELLPADDING="6" CELLSPACING="6" WIDTH="600">
+             <tr>
+                 <th>ISBN</th>
+                 <th>Genre</th>
+                 <th>Title</th>
+                 <th>Author</th>
+             </tr>
+             @foreach (var book in Model.Books)
+             {
+                 <tr>
+                     <td><a href="@Url.Content("/BookDetail/Detail/" + @book.ISBN)">@book.ISBN</a></td>
+                     <td>@book.Genre</td>
+                     <td>@book.Title</td>
+                     <td>@book.Author</td>
+
+                 </tr>
+             }
+
+         </table>
+     </p>
+ }
+
+</div>

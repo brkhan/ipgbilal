@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2016-08-14 14:57:49Z" end-time="2016-08-14 14:57:52Z" duration="2.119827">
+  <command-line><![CDATA["C:\projects\ipg-master\NUnit-3.4.1\bin\nunit3-console.exe" ../BuildArtifacts\UnitsTests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="UnitsTests.dll" fullname="C:\projects\ipg-master\BuildArtifacts\UnitsTests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:52Z" duration="2.015219" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5">
+    <environment framework-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10586.0" platform="Win32NT" cwd="C:\projects\ipg-master\build" machine-name="BILAL-PC" user="Bilal" user-domain="BILAL-PC" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\projects\ipg-master\build" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="19992" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1008" name="iPgBilal" fullname="iPgBilal" runstate="Runnable" testcasecount="5" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:52Z" duration="1.964920" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5">
+      <test-suite type="TestSuite" id="0-1009" name="Tests" fullname="iPgBilal.Tests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:52Z" duration="1.960496" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5">
+        <test-suite type="TestSuite" id="0-1010" name="Domain" fullname="iPgBilal.Tests.Domain" runstate="Runnable" testcasecount="5" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:52Z" duration="1.957803" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="5">
+          <test-suite type="TestFixture" id="0-1000" name="SearchBookServiceTests" fullname="iPgBilal.Tests.Domain.SearchBookServiceTests" classname="iPgBilal.Tests.Domain.SearchBookServiceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:51Z" duration="1.698476" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="0-1003" name="Should_Call_The_Reposiotry_With_The_Correct_Params" fullname="iPgBilal.Tests.Domain.SearchBookServiceTests.Should_Call_The_Reposiotry_With_The_Correct_Params" methodname="Should_Call_The_Reposiotry_With_The_Correct_Params" classname="iPgBilal.Tests.Domain.SearchBookServiceTests" runstate="Runnable" seed="489162311" result="Passed" start-time="2016-08-14 14:57:50Z" end-time="2016-08-14 14:57:51Z" duration="1.611818" asserts="0" />
+            <test-case id="0-1001" name="Should_Create_The_Correct_Filter_Based_On_The_Search_Category_Type" fullname="iPgBilal.Tests.Domain.SearchBookServiceTests.Should_Create_The_Correct_Filter_Based_On_The_Search_Category_Type" methodname="Should_Create_The_Correct_Filter_Based_On_The_Search_Category_Type" classname="iPgBilal.Tests.Domain.SearchBookServiceTests" runstate="Runnable" seed="1911160221" result="Passed" start-time="2016-08-14 14:57:51Z" end-time="2016-08-14 14:57:51Z" duration="0.022795" asserts="4" />
+            <test-case id="0-1002" name="Should_Not_Update_When_Searching_For_Book" fullname="iPgBilal.Tests.Domain.SearchBookServiceTests.Should_Not_Update_When_Searching_For_Book" methodname="Should_Not_Update_When_Searching_For_Book" classname="iPgBilal.Tests.Domain.SearchBookServiceTests" runstate="Runnable" seed="2043862587" result="Passed" start-time="2016-08-14 14:57:51Z" end-time="2016-08-14 14:57:51Z" duration="0.023233" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1004" name="UpdateBookLoanServiceTests" fullname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests" classname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2016-08-14 14:57:51Z" end-time="2016-08-14 14:57:52Z" duration="0.245584" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="0-1006" name="Should_Loan_Out_A_Book" fullname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests.Should_Loan_Out_A_Book" methodname="Should_Loan_Out_A_Book" classname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests" runstate="Runnable" seed="29553775" result="Passed" start-time="2016-08-14 14:57:51Z" end-time="2016-08-14 14:57:51Z" duration="0.184860" asserts="0" />
+            <test-case id="0-1005" name="Should_Return_Book_After_Loan" fullname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests.Should_Return_Book_After_Loan" methodname="Should_Return_Book_After_Loan" classname="iPgBilal.Tests.Domain.UpdateBookLoanServiceTests" runstate="Runnable" seed="503761493" result="Passed" start-time="2016-08-14 14:57:51Z" end-time="2016-08-14 14:57:52Z" duration="0.054707" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,6 @@
+C:\projects\ipg-master\BuildArtifacts\IpgBilal.Domain.dll.config
+C:\projects\ipg-master\BuildArtifacts\IpgBilal.Domain.dll
+C:\projects\ipg-master\BuildArtifacts\IpgBilal.Domain.pdb
+C:\projects\ipg-master\IpagooBilal.Domain\obj\Release\iPgBilal.Domain.csprojResolveAssemblyReference.cache
+C:\projects\ipg-master\IpagooBilal.Domain\obj\Release\IpgBilal.Domain.dll
+C:\projects\ipg-master\IpagooBilal.Domain\obj\Release\IpgBilal.Domain.pdb

@@ -1,0 +1,4 @@
+C:\projects\ipg-master\BuildArtifacts\Build.dll
+C:\projects\ipg-master\BuildArtifacts\Build.pdb
+C:\projects\ipg-master\build\obj\Release\Build.dll
+C:\projects\ipg-master\build\obj\Release\Build.pdb

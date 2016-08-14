@@ -1,0 +1,6 @@
+C:\projects\ipg-master\BuildArtifacts\IPgBilal.DAL.dll.config
+C:\projects\ipg-master\BuildArtifacts\IPgBilal.DAL.dll
+C:\projects\ipg-master\BuildArtifacts\IPgBilal.DAL.pdb
+C:\projects\ipg-master\IPgBilal.DAL\obj\Release\IPgBilal.DAL.csprojResolveAssemblyReference.cache
+C:\projects\ipg-master\IPgBilal.DAL\obj\Release\IPgBilal.DAL.dll
+C:\projects\ipg-master\IPgBilal.DAL\obj\Release\IPgBilal.DAL.pdb

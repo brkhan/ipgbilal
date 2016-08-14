@@ -1,0 +1,5 @@
+C:\projects\ipg-master\BuildArtifacts\UnitsTests.dll
+C:\projects\ipg-master\BuildArtifacts\UnitsTests.pdb
+C:\projects\ipg-master\UnitsTests\obj\Release\UnitsTests.csprojResolveAssemblyReference.cache
+C:\projects\ipg-master\UnitsTests\obj\Release\UnitsTests.dll
+C:\projects\ipg-master\UnitsTests\obj\Release\UnitsTests.pdb

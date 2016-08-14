@@ -1,0 +1,5 @@
+C:\projects\ipg-master\Build\bin\Debug\Build.dll
+C:\projects\ipg-master\Build\bin\Debug\Build.pdb
+C:\projects\ipg-master\Build\obj\Debug\Build.dll
+C:\projects\ipg-master\Build\obj\Debug\Build.pdb
+C:\projects\ipg-master\Build\obj\Debug\Build.csprojResolveAssemblyReference.cache

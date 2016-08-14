@@ -1,0 +1,5 @@
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\IpagooBilal.Domain\bin\Debug\IpagooBilal.Domain.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\IpagooBilal.Domain\bin\Debug\IpagooBilal.Domain.pdb
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\IpagooBilal.Domain\obj\Debug\IpagooBilal.Domain.csprojResolveAssemblyReference.cache
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\IpagooBilal.Domain\obj\Debug\IpagooBilal.Domain.dll
+c:\users\bilal\documents\visual studio 2015\Projects\iPagooBilal\IpagooBilal.Domain\obj\Debug\IpagooBilal.Domain.pdb

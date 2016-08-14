@@ -1,0 +1,60 @@
+﻿@model iPgBilal.Models.BookDetailModel
+
+
+
+<div class="jumbotron">
+    Author: @Html.LabelFor(a => a.Book.Author, Model.Book.Author)
+    <br/>
+    ISBN: @Html.LabelFor(a => a.Book.Author, Model.Book.ISBN)
+    <br/>
+    Title: @Html.LabelFor(a => a.Book.Author, Model.Book.Title)
+    <br/>
+    Genre: @Html.LabelFor(a => a.Book.Author, Model.Book.Genre)
+        <br/>
+     Total Loans : @Model.Book.BookLoans.Count
+    
+    </div>
+<p></p>
+
+@if (Model.RecentAction != null)
+{
+    @Model.RecentAction
+}
+
+@using (Html.BeginForm("Submit", "BookDetail", FormMethod.Post))
+{
+    <div class="results">
+        @Html.HiddenFor(a=> a.Isbn)
+        @if (Model.Book.IsAvailableToLoan)
+        {
+            @Html.LabelFor(a => a.LoanTo, "Enter name of person to loan book to")
+            @Html.TextBoxFor(a => a.LoanTo)
+            <p></p>
+            @Html.LabelFor(a => a.Comments, "Enter Any comments")
+            @Html.TextAreaFor(a => a.LoanTo)
+            <p></p>
+            <button id="btnLoanBook" value="loanBook" name="action" type="submit">Loan book</button>
+        }
+
+        else
+        {
+            <button id="btnReturnBook" value="returnBook" name="action" type="submit">Return book</button>
+        }
+
+    </div>
+}
+
+
+<script type="text/javascript">
+
+    $('#LoanTo').bind('input propertychange',function () {
+        var validName = document.getElementById('LoanTo');
+        if (validName) {
+            document.getElementById('btnLoanBook').disabled = false;
+        } else {
+            document.getElementById('btnLoanBook').disabled = true;
+        }
+    });
+
+    
+</script>
