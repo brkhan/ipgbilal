@@ -1,6 +1,6 @@
 ﻿cls
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
 remove-module [p]sake
 
