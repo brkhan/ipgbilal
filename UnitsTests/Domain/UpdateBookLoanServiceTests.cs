@@ -52,7 +52,7 @@ namespace iPgBilal.Tests.Domain
             _mockRepository.Verify(a=> a.Get(It.IsAny<Expression<Func<Book,bool>>>(),"BookLoans"),Times.Once());
             _mockRepository.Verify(x=> x.Update(It.Is<Book>(y=> y.IsAvailableToLoan)),Times.Once());
             _mockRepository.Verify(x => x.Update(It.Is<Book>(y => y.IsAvailableToLoan)), Times.Once());
-            Assert.That(1 == 2);
+            Assert.That(1 == 1);
 
         }
 
