@@ -75,7 +75,7 @@ Write-Host 'Deployment directory..' $baseDir -ForegroundColor Green
     $arg3 = "-dest:auto,ComputerName='https://localhost:8172/msdeploy.axd?site=TestPsakeDemo'"
     $arg4 = "-retryAttempts=0"
     #$arg5 = -setParam:"name=IIS Web Application Name"="TestSiteDemo" - allowUntrusted=true -skip:Directory="App_Data"
-    $arg5 = "-allowUntrusted"# -skip:Directory="App_Data"
+    $arg5 = "-allowUntrustedCertificate=true"# -skip:Directory="App_Data"
     & $msdeploy $arg1 $arg6 $arg7 $arg8 $arg2 $arg3 $args5 #$arg4 #$arg5
 
 	if($LASTEXITCODE -ne 0) {
