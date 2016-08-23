@@ -27,7 +27,7 @@ $webProject = "..\iPagooBilal\iPgBilal.csproj"
 #}
 
 #task start {
-Invoke-psake Build/default.ps1  -parameters @{paramsoln_dir ="..\iPgBilal.sln"; parambuildartifacts_dir = "..\BuildArtifacts"; paramPublishedWeb = "..\iPagooBilal\iPgBilal.csproj"; paramWebPackageLoc="..\Build\PublishedWebsites"} -framework 4.5.2x64
+Invoke-psake Build/default.ps1  -parameters @{paramsoln_dir ="..\iPgBilal.sln"; parambuildartifacts_dir = "..\BuildArtifacts"; paramPublishedWeb = "..\iPagooBilal\iPgBilal.csproj"; paramWebPackageLoc="..\Build\PublishedWebsites"; paramWebDeployExe="C:\Program Files\IIS\Microsoft Web Deploy V3\\"} -framework 4.5.2x64
 #}
 
 Write-Host "Build exit code:" $LastExitCode

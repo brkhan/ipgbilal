@@ -3,6 +3,7 @@
   $build_artifacts_dir = $parambuildartifacts_dir
   $proj = $paramPublishedWeb
   $webPackageLoc_dir = $paramWebPackageLoc
+  $webDeployExePath = $paramWebDeployExe
 }
 
 
@@ -59,16 +60,53 @@ task Test -depends Compile, Clean {
 
 task Deployment -depends Test  {
 	
- Exec { msbuild "$proj" /t:Package /p:Platform=AnyCPU /p:Configuration=Release /p:PackageLocation="$webPackageLoc_dir" /v:q }
+Exec { msbuild "$proj" /t:Package /p:Platform=AnyCPU /p:Configuration=Release /p:AllowUntrustedCertificate=true /p:PackageLocation="$webPackageLoc_dir" /v:q }
 
 Write-Host 'Executed Package creation!' -ForegroundColor Green
-
+Write-Host 'Starting deployment..' -ForegroundColor Green
+	$baseDir = [System.IO.Path]::GetFullPath((Join-Path (Join-Path (pwd) '') "$webPackageLoc_dir"))
+Write-Host 'Deployment directory..' $baseDir -ForegroundColor Green
+	$msdeploy = "$webDeployExePath\msdeploy.exe"
+    $arg1 = "-verb:sync"
+	$arg6 = "-disableLink:AppPoolExtension"
+	$arg7 = "-disableLink:ContentExtension"
+	$arg8 = "-disableLink:CertificateExtension"
+    $arg2 = "-source:package=$baseDir\iPgBilal.zip"
+    $arg3 = "-dest:auto,ComputerName='https://localhost:8172/msdeploy.axd?site=TestPsakeDemo'"
+    $arg4 = "-retryAttempts=0"
+    #$arg5 = -setParam:"name=IIS Web Application Name"="TestSiteDemo" - allowUntrusted=true -skip:Directory="App_Data"
+    $arg5 = "-allowUntrusted"# -skip:Directory="App_Data"
+    & $msdeploy $arg1 $arg6 $arg7 $arg8 $arg2 $arg3 $args5 #$arg4 #$arg5
 
 	if($LASTEXITCODE -ne 0) {
         throw "Failed to deploy to Release"
         exit 1
     }
 
+}
+
+task DeploymentTest {
+	
+Write-Host 'Starting deployment..' -ForegroundColor Green
+	$baseDir = [System.IO.Path]::GetFullPath((Join-Path (Join-Path (pwd) '') "$webPackageLoc_dir"))
+Write-Host 'Deployment directory..' $baseDir -ForegroundColor yellow
+	$msdeploy = "$webDeployExePath\msdeploy.exe"
+    $arg1 = "-verb:sync"
+	$arg6 = "-disableLink:AppPoolExtension"
+	$arg7 = "-disableLink:ContentExtension"
+	$arg8 = "-disableLink:CertificateExtension"
+    $arg2 = "-source:package=$baseDir\iPgBilal.zip"
+    $arg3 = "-dest:auto,ComputerName='https://lond-pgdom01:8172/msdeploy.axd?site=TestPsakeDemo'"
+    $arg4 = "-retryAttempts=0"
+    #$arg5 = -setParam:"name=IIS Web Application Name"="TestSiteDemo" - allowUntrusted=true -skip:Directory="App_Data"
+    $arg5 = "-allowUntrusted"# -skip:Directory="App_Data"
+    & $msdeploy $arg1 $arg6 $arg7 $arg8 $arg2 $arg3 $args5 #$arg4 #$arg5
+
+
+	if($LASTEXITCODE -ne 0) {
+        throw "Failed to deploy to Release"
+        exit 1
+    }
 
 }
 
