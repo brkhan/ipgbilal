@@ -27,12 +27,12 @@ $webProject = "..\iPagooBilal\iPgBilal.csproj"
 #}
 
 #task start {
-	Write-Host 'usermame ' $paramusername
-	Write-Host 'password ' $parampassword
+	Write-Host 'paramusermame ' $paramusername
+	Write-Host 'parampassword ' $parampassword
 
-	Write-Host 'usermame ' $args[0]
-	Write-Host 'password ' $args[1]
-Invoke-psake Build/default.ps1  -parameters @{paramsoln_dir ="..\iPgBilal.sln"; parambuildartifacts_dir = "..\BuildArtifacts"; paramPublishedWeb = "..\iPagooBilal\iPgBilal.csproj"; paramWebPackageLoc="..\Build\PublishedWebsites"; paramWebDeployExe="C:\Program Files\IIS\Microsoft Web Deploy V3\\"; paramusername=$paramusername; parampassword=$parampassword} -framework 4.5.2x64
+	Write-Host 'args:usermame ' $args[0]
+	Write-Host 'args:password ' $args[1]
+Invoke-psake Build/default.ps1  -parameters @{paramsoln_dir ="..\iPgBilal.sln"; parambuildartifacts_dir = "..\BuildArtifacts"; paramPublishedWeb = "..\iPagooBilal\iPgBilal.csproj"; paramWebPackageLoc="..\Build\PublishedWebsites"; paramWebDeployExe="C:\Program Files\IIS\Microsoft Web Deploy V3\\"; paramusername=$args[0]; parampassword=$args[1]} -framework 4.5.2x64
 #}
 
 Write-Host "Build exit code:" $LastExitCode
