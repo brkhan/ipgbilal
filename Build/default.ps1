@@ -37,7 +37,7 @@ Write-Host "artifacts resolve-path $build_artifacts_dir" -ForegroundColor Green
 Write-Host "web project resolve-path $proj" -ForegroundColor Green
 Write-Host "web package location  resolve-path $webPackageLoc_dir" -ForegroundColor Green
 
-Exec { msbuild "$soln" /t:Build /p:Configuration=Release /p:OutputPath=$build_artifacts_dir  /v:minimal}
+Exec { msbuild "$soln" /t:Build /p:Configuration=Release /p:OutputPath=$build_artifacts_dir /p:AllowUntrustedCertificate=true  /v:minimal}
  Write-Host 'Executed Compile!'
 
 		if($LASTEXITCODE -ne 0) {
