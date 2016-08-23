@@ -1,0 +1,1 @@
+& Command ".\build.p1 %1"

@@ -4,6 +4,8 @@
   $proj = $paramPublishedWeb
   $webPackageLoc_dir = $paramWebPackageLoc
   $webDeployExePath = $paramWebDeployExe
+  $username = $paramusername
+  $password = $parampassword
 }
 
 
@@ -64,7 +66,9 @@ Exec { msbuild "$proj" /t:Package /p:Platform=AnyCPU /p:Configuration=Release /p
 
 Write-Host 'Executed Package creation!' -ForegroundColor Green
 Write-Host 'Starting deployment..' -ForegroundColor Green
-	$baseDir = [System.IO.Path]::GetFullPath((Join-Path (Join-Path (pwd) '') "$webPackageLoc_dir"))
+Write-Host 'username' $username -ForegroundColor yellow
+Write-Host 'password' $password -ForegroundColor yellow
+$baseDir = [System.IO.Path]::GetFullPath((Join-Path (Join-Path (pwd) '') "$webPackageLoc_dir"))
 Write-Host 'Deployment directory..' $baseDir -ForegroundColor Green
 	$msdeploy = "$webDeployExePath\msdeploy.exe"
     $arg1 = "-verb:sync"
@@ -76,7 +80,10 @@ Write-Host 'Deployment directory..' $baseDir -ForegroundColor Green
     $arg4 = "-retryAttempts=0"
     #$arg5 = -setParam:"name=IIS Web Application Name"="TestSiteDemo" - allowUntrusted=true -skip:Directory="App_Data"
     $arg5 = "-allowUntrusted"# -skip:Directory="App_Data"
-    & $msdeploy $arg1 $arg6 $arg7 $arg8 $arg2 $arg3 $args5 #$arg4 #$arg5
+   # & $msdeploy $arg1 $arg6 $arg7 $arg8 $arg2 $arg3 $args5 #$arg4 #$arg5
+	& $baseDir\iPgBilal.deploy.cmd /y /M:https://localhost:8172/MsDeploy.axd /u:"$username" /p:"$password" –allowUntrusted /A:basic
+
+
 
 	if($LASTEXITCODE -ne 0) {
         throw "Failed to deploy to Release"
