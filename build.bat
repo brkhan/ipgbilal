@@ -1,1 +1,1 @@
-& Command ".\build.p1 %1"
+& Command .\build ".\build.ps1 %1"
